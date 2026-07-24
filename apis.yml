@@ -1,7 +1,25 @@
 aid: cardiogram
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cardiogram.png
 name: Cardiogram
-description: Cardiogram is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Cardiogram is a digital-health company whose consumer app analyzes heart-rate and
+  activity data from wearables such as the Apple Watch, Wear OS, Garmin, and Fitbit to help people
+  understand their cardiovascular health. Its DeepHeart deep-neural-network technology was developed
+  to screen heart-rate patterns for signs of conditions including atrial fibrillation, sleep apnea,
+  diabetes, and hypertension, work studied in collaboration with academic health researchers. The
+  company is backed by Andreessen Horowitz (a16z). This profile was added to the API Evangelist
+  network as a venture-portfolio lead; as of this pass Cardiogram exposes no public developer or API
+  surface and its primary website (cardiogram.com) does not complete an HTTPS/TLS handshake.
 url: https://raw.githubusercontent.com/api-evangelist/cardiogram/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +29,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Health
+- Healthcare
+- Digital Health
+- Wearables
+- Heart Rate
+- Cardiovascular
+- Machine Learning
+- Consumer Health
+common:
+- type: DomainSecurity
+  url: security/cardiogram-domain-security.yml
+- type: Website
+  url: https://cardiogram.com
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
