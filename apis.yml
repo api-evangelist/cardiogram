@@ -49,7 +49,7 @@ tags:
 - Wearables
 - Heart Rate
 - Cardiovascular
-- Machine-Learning
+- Machine Learning
 - Consumer Health
 tags_raw:
 - Company
@@ -61,6 +61,7 @@ tags_raw:
 - Cardiovascular
 - Machine Learning
 - Consumer Health
+- Machine-Learning
 common:
 - type: DomainSecurity
   url: security/cardiogram-domain-security.yml
